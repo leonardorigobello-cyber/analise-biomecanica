@@ -1,4 +1,4 @@
-# Análise Biomecânica de Fratura do Maléolo Posterior com MEF
+# Análise Biomecânica de Fratura do Maléolo Posterior com MEF 
 
 ## 📌 Objetivo
 Analisar o comportamento biomecânico de uma fratura do maléolo posterior utilizando simulação por MEF, comparando 6 técnicas de fixação.
@@ -40,3 +40,7 @@ Os resultados mostram diferenças entre as técnicas de fixação, com variaçõ
 
 pip install -r requirements.txt  
 python src/main.py
+
+## 🔍 Conclusão
+
+A análise permitiu identificar diferenças relevantes entre as técnicas de fixação, demonstrando como a combinação de simulação computacional (MEF) e análise de dados pode gerar insights úteis para tomada de decisão.
