@@ -8,16 +8,16 @@ Analisar o comportamento biomecânico de uma fratura do maléolo posterior utili
 ## 📊 Resultados
 
 ### Deslocamento (DF)
-![DF](graficos/DF.png)
+![DF](Grafico/DF.png)
 
 ### Tensão de Von Mises (Tvon)
-![Tvon](graficos/Tvon.png)
+![Tvon](Grafico/Tvon.png)
 
 ### Heatmap de Deslocamento
-![Heatmap DF](graficos/heatmap_DF.png)
+![Heatmap DF](Grafico/heatmap_DF.png)
 
 ### Heatmap de Tensões
-![Heatmap Tvon](graficos/heatmap_Tvon.png)
+![Heatmap Tvon](Grafico/heatmap_Tvon.png)
 
 ---
 
