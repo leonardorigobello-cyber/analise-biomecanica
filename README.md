@@ -64,3 +64,8 @@ A análise dos dados permitiu identificar diferenças relevantes entre as técni
 ```bash
 pip install -r requirements.txt
 python src/main.py
+
+
+# Teste
+
+Projeto de análise biomecânica
