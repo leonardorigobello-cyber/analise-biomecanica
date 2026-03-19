@@ -29,9 +29,6 @@ O fluxo do projeto inclui:
 
 ### Comparação entre técnicas de fixação
 
-![Gráfico](graficos/comparacao_fixacoes.png)
-## 📊 Resultados
-
 ### 🔹 Deslocamento (DF)
 ![Deslocamento](graficos/DF.png)
 
