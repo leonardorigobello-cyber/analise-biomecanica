@@ -30,7 +30,19 @@ O fluxo do projeto inclui:
 ### Comparação entre técnicas de fixação
 
 ![Gráfico](graficos/comparacao_fixacoes.png)
+## 📊 Resultados
 
+### 🔹 Deslocamento (DF)
+![Deslocamento](graficos/DF.png)
+
+### 🔹 Tensão de Von Mises (Tvon)
+![Von Mises](graficos/Tvon.png)
+
+### 🔹 Heatmap de Deslocamento
+![Heatmap DF](graficos/heatmap_DF.png)
+
+### 🔹 Heatmap de Tensões (Von Mises)
+![Heatmap Tvon](graficos/heatmap_Tvon.png)
 ---
 
 ## 🔍 Insight
