@@ -1,43 +1,57 @@
-# Análise Biomecânica Automatizada
+# Análise Biomecânica de Fratura do Maléolo Posterior com MEF
 
-Este projeto tem como objetivo realizar a análise biomecânica automatizada de resultados experimentais, com geração automática de gráficos e relatórios em PDF.
+## 📌 Objetivo
+Este projeto tem como objetivo analisar o comportamento biomecânico de uma fratura do maléolo posterior do tornozelo utilizando simulação por Método dos Elementos Finitos (MEF), comparando 6 diferentes técnicas de fixação.
 
-## Objetivos
+---
 
-- Processamento automatizado de dados experimentais
-- Análise estatística biomecânica
-- Geração automática de gráficos
-- Identificação de valores máximos e mínimos
-- Aplicação de regressão
-- Geração de relatório técnico automatizado
+## 🧠 Metodologia
 
-## Metodologia
-
-Os dados experimentais são importados de planilhas Excel e processados utilizando bibliotecas científicas em Python, incluindo:
+Os dados foram obtidos a partir de simulações computacionais e processados em Python utilizando:
 
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 
-O sistema realiza:
+O fluxo do projeto inclui:
 
-- Organização dos dados
-- Cálculo de parâmetros biomecânicos
-- Análise comparativa entre grupos
-- Visualização gráfica
-- Exportação automática para relatório PDF
+- Importação dos dados (Excel)
+- Organização e tratamento dos dados
+- Cálculo de parâmetros biomecânicos (Tmax, Tmin, Von Mises, deslocamentos)
+- Análise comparativa entre diferentes fixações
+- Geração automática de gráficos
+- Exportação de relatório técnico em PDF
 
-## Aplicações
+---
 
-Este projeto pode ser aplicado em:
+## 📊 Resultados
 
-- Engenharia Biomecânica
-- Ortopedia
-- Simulações por Método dos Elementos Finitos
-- Análise experimental mecânica
-- Pesquisa acadêmica
+### Comparação entre técnicas de fixação
 
-## Autor
+![Gráfico](graficos/comparacao_fixacoes.png)
 
-Leonardo Rigobello Battaglion  
+---
+
+## 🔍 Insight
+
+A análise dos dados permitiu identificar diferenças relevantes entre as técnicas de fixação, destacando aquelas com menor concentração de tensões e maior estabilidade mecânica, o que pode auxiliar na tomada de decisão clínica.
+
+---
+
+## 🛠️ Tecnologias
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Método dos Elementos Finitos (MEF)
+
+---
+
+## ▶️ Como executar
+
+```bash
+pip install -r requirements.txt
+python src/main.py
